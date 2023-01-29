@@ -77,7 +77,7 @@ font-family: 'Times New Roman', Times, serif;
        <th>Image</th>
        <th >First Name</th>
        <th >Last Name</th>
-       <th>Parent  <br>(Gebru's Decendent)</th>
+       <th>Parent  <br>(Gebru's Descendant)</th>
        <th >E-mail</th>
        <th >Telephone</th>
        <th >Edit</th>
@@ -97,7 +97,7 @@ font-family: 'Times New Roman', Times, serif;
    <div class="modal-content">
     <div class="modal-header">
      <button type="button" class="close" data-dismiss="modal">&times;</button>
-     <h4 class="modal-title">Add Famly Member</h4>
+     <h4 class="modal-title">Add Family Member</h4>
     </div>
     <div class="modal-body">
      <label>Enter First Name</label>
@@ -106,7 +106,7 @@ font-family: 'Times New Roman', Times, serif;
      <label>Enter Last Name</label>
      <input type="text" name="last_name" id="last_name" class="form-control" />
      <br />
-     <label>Enter Parent's Name <br> Gebrus's Decendent</label>
+     <label>Enter Parent's Name <br> Gebru's Descendant</label>
      <input type="text" name="parent" id="parent" class="form-control" />
      <br /> <label>Enter E-mail</label>
      <input type="email" name="email" id="email" class="form-control" />
@@ -114,7 +114,7 @@ font-family: 'Times New Roman', Times, serif;
      <input type="text" name="tel" id="tel" class="form-control" value="+" />
      
 
-     <label>Select User Image</label>
+     <label>Add Image</label>
      <input type="file" name="user_image" id="user_image" />
      <span id="user_uploaded_image"></span>
     </div>
@@ -133,7 +133,7 @@ font-family: 'Times New Roman', Times, serif;
 $(document).ready(function(){
  $('#add_button').click(function(){
   $('#user_form')[0].reset();
-  $('.modal-title').text("Add User");
+  $('.modal-title').text("Add  A Member");
   $('#action').val("Add");
   $('#operation').val("Add");
   $('#user_uploaded_image').html('');
