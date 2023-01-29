@@ -20,12 +20,15 @@
     margin:0;
     padding:0;
     background-image: url("logo.png");
+    display:flex;
+justify-content:center;
    }
    .box
    {
   
-
+  
     background-color:#fff;
+    width:80%;
     border:1px solid #ccc;
     margin-top:25px;
    }
