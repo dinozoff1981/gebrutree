@@ -133,7 +133,7 @@ font-family: 'Times New Roman', Times, serif;
 $(document).ready(function(){
  $('#add_button').click(function(){
   $('#user_form')[0].reset();
-  $('.modal-title').text("Add  A Member");
+  $('.modal-title').text("Add A Member");
   $('#action').val("Add");
   $('#operation').val("Add");
   $('#user_uploaded_image').html('');
